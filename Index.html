@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MultiSelect Dropdowns</title>
+    <link rel="stylesheet" href="multiselect.css" />
+  </head>
+  <body>
+    <div class="form">
+      <!-- Fruits MultiSelect -->
+      <div class="multiselect-container">
+        <button class="btn-multi" aria-expanded="false">
+          <div class="selected-items">
+            <span class="placeholder">Select fruits...</span>
+          </div>
+          <span class="btn-arrow"></span>
+        </button>
+        <div class="dropdown-menu">
+          <div class="category-title">Fruits</div>
+          <label><input type="checkbox" value="apple" /> Apple</label>
+          <label><input type="checkbox" value="banana" /> Banana</label>
+          <label><input type="checkbox" value="orange" /> Orange</label>
+          <label><input type="checkbox" value="mango" /> Mango</label>
+          <label><input type="checkbox" value="strawberry" /> Strawberry</label>
+        </div>
+      </div>
+
+      <!-- Cars MultiSelect -->
+      <div class="multiselect-container">
+        <button class="btn-multi" aria-expanded="false">
+          <div class="selected-items">
+            <span class="placeholder">Select cars...</span>
+          </div>
+          <span class="btn-arrow"></span>
+        </button>
+        <div class="dropdown-menu">
+          <div class="category-title">Cars</div>
+          <label><input type="checkbox" value="toyota" /> Toyota</label>
+          <label><input type="checkbox" value="honda" /> Honda</label>
+          <label><input type="checkbox" value="ford" /> Ford</label>
+          <label><input type="checkbox" value="bmw" /> BMW</label>
+          <label><input type="checkbox" value="mercedes" /> Mercedes</label>
+        </div>
+      </div>
+
+      <!-- Phones MultiSelect -->
+      <div class="multiselect-container">
+        <button class="btn-multi" aria-expanded="false">
+          <div class="selected-items">
+            <span class="placeholder">Select phones...</span>
+          </div>
+          <span class="btn-arrow"></span>
+        </button>
+        <div class="dropdown-menu">
+          <div class="category-title">Phones</div>
+          <label><input type="checkbox" value="iphone" /> iPhone</label>
+          <label><input type="checkbox" value="samsung" /> Samsung</label>
+          <label><input type="checkbox" value="google" /> Google Pixel</label>
+          <label><input type="checkbox" value="oneplus" /> OnePlus</label>
+          <label><input type="checkbox" value="xiaomi" /> Xiaomi</label>
+        </div>
+      </div>
+    </div>
+    <script src="multiselect.js"></script>
+  </body>
+</html>
